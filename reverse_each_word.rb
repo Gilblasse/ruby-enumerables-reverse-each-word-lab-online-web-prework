@@ -1,5 +1,4 @@
 def reverse_each_word(sentence)
-  asdf sdfa dsfa fsdfa 
-  word
-  
+  sentence.each {|word| word.reverse!}
+  sentence
 end
